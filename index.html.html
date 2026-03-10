@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - EduConnect</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; color: #333; }
+        h1, h2, h3 { color: #0056b3; }
+        p { margin-bottom: 10px; }
+        ul { list-style-type: disc; margin-left: 20px; margin-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Política de Privacidade - EduConnect</h1>
+
+    <p>Esta Política de Privacidade descreve como o <strong>EduConnect</strong> coleta, usa, armazena e protege as informações pessoais dos seus usuários. Nosso compromisso é garantir a privacidade e a segurança dos seus dados, em conformidade com a Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 - LGPD) do Brasil.</p>
+
+    <h2>1. Introdução</h2>
+    <p>O EduConnect é uma plataforma educacional online dedicada a conectar alunos e professores, oferecendo cursos, materiais didáticos e ferramentas de interação. Ao utilizar nossos serviços, você concorda com a coleta e o uso de suas informações conforme descrito nesta política.</p>
+
+    <h2>2. Dados Coletados</h2>
+    <p>Coletamos diferentes tipos de dados para fornecer e melhorar nossos serviços. A seguir, detalhamos os dados coletados, sua obrigatoriedade, finalidade e forma de armazenamento:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Tipo de Dado</th>
+                <th>Obrigatório?</th>
+                <th>Finalidade</th>
+                <th>Armazenamento</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nome Completo</td>
+                <td>Sim</td>
+                <td>Identificação do usuário na plataforma e emissão de certificados.</td>
+                <td>Banco de Dados Criptografado (AWS RDS)</td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td>Sim</td>
+                <td>Autenticação, recuperação de senha e comunicações acadêmicas.</td>
+                <td>Banco de Dados Criptografado (AWS RDS)</td>
+            </tr>
+            <tr>
+                <td>Telefone</td>
+                <td>Não</td>
+                <td>Notificações via SMS ou WhatsApp sobre prazos e aulas.</td>
+                <td>Banco de Dados Criptografado (AWS RDS)</td>
+            </tr>
+            <tr>
+                <td>Endereço IP</td>
+                <td>Sim</td>
+                <td>Segurança, prevenção de fraudes e logs de acesso.</td>
+                <td>Servidor de Logs (S3)</td>
+            </tr>
+            <tr>
+                <td>Cookies</td>
+                <td>Sim</td>
+                <td>Manutenção da sessão e preferências de interface.</td>
+                <td>Navegador do Usuário (Local Storage)</td>
+            </tr>
+            <tr>
+                <td>Dados de Navegação</td>
+                <td>Não</td>
+                <td>Melhoria da experiência do usuário e análise de desempenho.</td>
+                <td>Google Analytics (Anonimizado)</td>
+            </tr>
+            <tr>
+                <td>Dados de Login</td>
+                <td>Sim</td>
+                <td>Controle de acesso e segurança da conta.</td>
+                <td>Hash de Senha (BCrypt) no Banco de Dados</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. Finalidade do Uso dos Dados</h2>
+    <p>Utilizamos os dados coletados para as seguintes finalidades:</p>
+    <ul>
+        <li><strong>Fornecimento e Manutenção dos Serviços:</strong> Para operar, manter e fornecer todas as funcionalidades da plataforma EduConnect.</li>
+        <li><strong>Personalização da Experiência:</strong> Adaptar o conteúdo e as recomendações de cursos às suas preferências.</li>
+        <li><strong>Comunicação:</strong> Enviar notificações importantes, atualizações sobre cursos, informações de segurança e suporte ao cliente.</li>
+        <li><strong>Segurança e Prevenção de Fraudes:</strong> Proteger a integridade da plataforma e dos usuários, monitorando atividades suspeitas.</li>
+        <li><strong>Melhoria Contínua:</strong> Analisar o uso da plataforma para identificar tendências, corrigir erros e desenvolver novas funcionalidades.</li>
+        <li><strong>Cumprimento Legal:</strong> Atender a obrigações legais e regulatórias, incluindo as exigências da LGPD.</li>
+    </ul>
+
+    <h2>4. Compartilhamento de Dados</h2>
+    <p>O EduConnect não vende ou aluga seus dados pessoais a terceiros. O compartilhamento de dados ocorre apenas nas seguintes situações e sempre com a devida proteção:</p>
+    <ul>
+        <li><strong>Provedores de Serviços:</strong> Com empresas que nos auxiliam na operação da plataforma (ex: serviços de hospedagem, processamento de pagamentos, análise de dados), sempre sob acordos de confidencialidade e segurança.</li>
+        <li><strong>Parceiros Educacionais:</strong> Com instituições ou professores parceiros, quando necessário para a entrega de um curso específico em que você esteja matriculado, e apenas os dados estritamente necessários.</li>
+        <li><strong>Exigência Legal:</strong> Em resposta a solicitações legais de autoridades competentes, como ordens judiciais ou investigações governamentais.</li>
+        <li><strong>Com seu Consentimento:</strong> Em outras situações, mediante seu consentimento explícito.</li>
+    </ul>
+
+    <h2>5. Uso de Cookies e Tecnologias Semelhantes</h2>
+    <p>Utilizamos cookies e outras tecnologias de rastreamento para melhorar sua experiência na plataforma, analisar o tráfego do site e personalizar conteúdo. Você pode gerenciar suas preferências de cookies através das configurações do seu navegador.</p>
+    <ul>
+        <li><strong>Cookies Essenciais:</strong> Necessários para o funcionamento básico do site, como manter sua sessão logada.</li>
+        <li><strong>Cookies de Desempenho:</strong> Coletam informações sobre como os usuários interagem com o site, ajudando-nos a melhorar seu desempenho.</li>
+        <li><strong>Cookies de Funcionalidade:</strong> Lembram suas preferências e escolhas para oferecer uma experiência mais personalizada.</li>
+    </ul>
+
+    <h2>6. Armazenamento e Segurança dos Dados</h2>
+    <p>Seus dados são armazenados em servidores seguros, localizados em data centers com altos padrões de segurança. Empregamos medidas técnicas e administrativas para proteger seus dados contra acesso não autorizado, alteração, divulgação ou destruição, incluindo:</p>
+    <ul>
+        <li>Criptografia de dados em trânsito e em repouso.</li>
+        <li>Controles de acesso rigorosos.</li>
+        <li>Monitoramento contínuo de segurança.</li>
+        <li>Backup regular dos dados.</li>
+    </ul>
+    <p>Embora nos esforcemos para proteger suas informações, nenhum sistema é 100% seguro. Recomendamos que você também tome medidas para proteger sua conta, como usar senhas fortes e não compartilhá-las.</p>
+
+    <h2>7. Direitos do Usuário (Titular dos Dados)</h2>
+    <p>De acordo com a LGPD, você possui os seguintes direitos em relação aos seus dados pessoais:</p>
+    <ul>
+        <li><strong>Acesso:</strong> Solicitar acesso aos seus dados pessoais que possuímos.</li>
+        <li><strong>Correção:</strong> Solicitar a correção de dados incompletos, inexatos ou desatualizados.</li>
+        <li><strong>Exclusão (Anonimização/Bloqueio):</strong> Solicitar a anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com a LGPD.</li>
+        <li><strong>Portabilidade:</strong> Solicitar a portabilidade dos seus dados a outro fornecedor de serviço ou produto, mediante requisição expressa.</li>
+        <li><strong>Informação:</strong> Obter informações sobre as entidades públicas e privadas com as quais o EduConnect realizou uso compartilhado de dados.</li>
+        <li><strong>Revogação do Consentimento:</strong> Revogar o consentimento a qualquer momento, sem que isso afete a legalidade do tratamento realizado antes da revogação.</li>
+        <li><strong>Oposição:</strong> Opor-se a tratamento realizado com fundamento em uma das hipóteses de dispensa de consentimento, em caso de descumprimento ao disposto na LGPD.</li>
+    </ul>
+    <p>Para exercer qualquer um desses direitos, entre em contato conosco através dos canais indicados na seção 
+8. Contato do Responsável.</p>
+
+    <h2>8. Contato do Responsável</h2>
+    <p>Para quaisquer dúvidas, solicitações ou para exercer seus direitos como titular dos dados, entre em contato com nosso Encarregado de Dados (DPO) através do e-mail:</p>
+    <p><strong>E-mail:</strong> dpo@educonnect.com.br</p>
+
+    <p>Esta Política de Privacidade pode ser atualizada periodicamente. Recomendamos que você a revise regularmente para se manter informado sobre como protegemos suas informações.</p>
+</body>
+</html>
